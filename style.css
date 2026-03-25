@@ -1,4 +1,8 @@
 /* style.css */
-body{
-background-image: ;    
+body {
+  background-image: url("home-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
 }
