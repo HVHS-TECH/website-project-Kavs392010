@@ -1,8 +1,14 @@
 /* style.css */
+CSS
 body {
-  background-image: url("home-page.jpg");
+  background:blueviolet;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
+}
+
+head {
+font-size: large;
+font-style: helvetica; 
 }
