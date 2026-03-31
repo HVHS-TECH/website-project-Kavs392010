@@ -1,12 +1,27 @@
-/* style.css */
+/*CSS file for styling the website*/
+/* Website Styling */
+ 
+/*Body Styling*/
 body {
-  background:blueviolet;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
-}
+    background-color: rgb(200, 180, 255);
+  margin: 0;
+padding: 10px;
+font-style: italic;
+font-family:Georgia, 'Times New Roman', Times, serif; }
 
-head {
-font-size: large;
-font-style: helvetica; 
+/*Heading Styling*/
+    .sub-heading {
+   color:purple; }
+
+     .header{
+   text-align:center;
+  font-size:34px;
+  padding: 25px;
+  border-radius:20px;
+  background-color:whitesmoke;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  color:purple;
 }
