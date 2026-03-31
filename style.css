@@ -3,7 +3,7 @@
  
 /*Body Styling*/
 body {
-    background-color: rgb(200, 180, 255);
+    background-color: #E9AFAD;
   margin: 0;
 padding: 10px;
 font-style: italic;
@@ -11,17 +11,20 @@ font-family:Georgia, 'Times New Roman', Times, serif; }
 
 /*Heading Styling*/
     .sub-heading {
-   color:purple; }
+   color:purple; 
+  }
 
      .header{
    text-align:center;
   font-size:34px;
   padding: 25px;
   border-radius:20px;
-  background-color:whitesmoke;
+  background-color:#926551;
   display:block;
   margin-left: auto;
   margin-right: auto;
   width:50%;
-  color:purple;
+  color:#F3D3C9;
 }
+
+#25140B
