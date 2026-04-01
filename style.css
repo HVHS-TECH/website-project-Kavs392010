@@ -1,9 +1,27 @@
 /*CSS file for styling the website*/
 /* Website Styling */
- 
+
+/*Navigation Styling*/
+
+.nav {
+   background-image: url("Images/home-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  padding: 15px;
+  text-align: left;
+}
+
 /*Body Styling*/
 body {
-    background-color: #E9AFAD;
+  background-color: #E9AFAD;
+  background-image: url("Images/home-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
   margin: 0;
 padding: 10px;
 font-style: italic;
@@ -27,4 +45,3 @@ font-family:Georgia, 'Times New Roman', Times, serif; }
   color:#F3D3C9;
 }
 
-#25140B
