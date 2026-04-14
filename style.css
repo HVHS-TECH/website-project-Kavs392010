@@ -3,20 +3,44 @@
 
 /*Navigation Styling*/
 
-.nav {
-   background-color: #926551;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+nav {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.navbar {
-  padding: 15px;
-  text-align: left;
+nav a {
+  background-color:#25140B;
+  color:pink;
+  padding: 10px 20px;
+  border-radius: 25px;
+margin-right: 10px;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+nav a:hover {
+background-color: #926551;
+color: white;
+text-decoration: underline;
+text-decoration-style: unset;
+text-underline-offset: 6px;
 }
 
 /*Body Styling*/
 body {
+  background-color: #E9AFAD;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin: 0;
+padding: 10px;
+font-style: italic;
+font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+/*Home Page Styling*/
+.body1 {
   background-color: #E9AFAD;
   background-image: url("Images/Background.png");
   background-repeat: no-repeat;
@@ -25,7 +49,8 @@ body {
   margin: 0;
 padding: 10px;
 font-style: italic;
-font-family:Georgia, 'Times New Roman', Times, serif; }
+font-family:Georgia, 'Times New Roman', Times, serif; 
+}
 
 /*Heading Styling*/
     .sub-heading {
@@ -45,3 +70,10 @@ font-family:Georgia, 'Times New Roman', Times, serif; }
   color:#F3D3C9;
 }
 
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  position: vertical;
+  margin: auto auto auto auto auto;
+  color: #C30745;
+}
