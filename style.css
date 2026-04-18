@@ -59,28 +59,20 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   background-repeat: no-repeat;
   background-size: cover;
   height: cover;
-  margin: 0;
-padding: 10px;
-font-style: italic;
-font-family:Georgia, 'Times New Roman', Times, serif; 
 }
 
 /*Heading Styling*/
     .sub-heading {
    color:purple; 
   }
-
-
-     .header{
-   text-align:center;
-  font-size:34px;
-  padding:25px;
-  border-radius:20px;
-  background-color:#926551;
-  display:block;
-  margin:30px auto;
-  width:50%;
-  color:#F3D3C9;
+ 
+  .header{
+  text-align:center;
+  font-size:100px;
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  margin:50px 50px 50px;
+  color:#926551;
 }
 
 
