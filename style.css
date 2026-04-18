@@ -14,12 +14,13 @@ nav {
 
 nav a {
   background-color:#25140B;
-  color:pink;
-   display: inline-flex;
+  color: pink;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
   border-radius: 25px;
+  box-shadow: 5px 5px #572b13;
 margin-right: 10px;
 font-weight: bold;
 text-decoration: none;
@@ -67,12 +68,16 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   }
  
   .header{
-  text-align:center;
-  font-size:100px;
+  text-align: center;
+  font-size: 150px;
+  font-weight: 600px;
   font-style: italic;
   font-family:Georgia, 'Times New Roman', Times, serif; 
-  margin:50px 50px 50px;
+  margin:50px 50px 50px 50px;
   color:#926551;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 10px rgb(223, 117, 117),0px 0px 25px rgb(223, 117, 117);
 }
 
 
