@@ -6,16 +6,29 @@
 nav {
   margin-bottom: 10px;
   margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
+
 
 nav a {
   background-color:#25140B;
   color:pink;
+   display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 20px;
   border-radius: 25px;
 margin-right: 10px;
 font-weight: bold;
 text-decoration: none;
+}
+
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
 }
 
 
@@ -26,6 +39,7 @@ text-decoration: underline;
 text-decoration-style: unset;
 text-underline-offset: 6px;
 }
+
 
 /*Body Styling*/
 body {
@@ -41,11 +55,10 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 
 /*Home Page Styling*/
 .body1 {
-  background-color: #E9AFAD;
-  background-image: url("Images/Background.png");
+  background-image: url("Images/home image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+  height: cover;
   margin: 0;
 padding: 10px;
 font-style: italic;
@@ -57,23 +70,17 @@ font-family:Georgia, 'Times New Roman', Times, serif;
    color:purple; 
   }
 
+
      .header{
    text-align:center;
   font-size:34px;
-  padding: 25px;
+  padding:25px;
   border-radius:20px;
   background-color:#926551;
   display:block;
-  margin-left: auto;
-  margin-right: auto;
+  margin:30px auto;
   width:50%;
   color:#F3D3C9;
 }
 
-.nav-icon {
-  width: 20px;
-  height: 20px;
-  position: vertical;
-  margin: auto auto auto auto auto;
-  color: #C30745;
-}
+
