@@ -9,6 +9,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  scroll-padding-top: 60px;
 }
 
 
@@ -41,17 +42,33 @@ text-decoration-style: unset;
 text-underline-offset: 6px;
 }
 
+/*Button Styling*/
+.btn-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
 
-/*Body Styling*/
-body {
-  background-color: #E9AFAD;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin: 0;
-padding: 10px;
-font-style: italic;
-font-family:Georgia, 'Times New Roman', Times, serif; 
+.btn {
+  background-color:#FFB6C1;
+  color: #5A2E1F;
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px#5C2D1F;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.btn:hover{
+    background-color:#FFB6C1;
+  color: #5A2E1F;
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px#5C2D1F;
+ font-weight: bold;
+ text-decoration: underline;
 }
 
 /*Home Page Styling*/
@@ -63,10 +80,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /*Heading Styling*/
-    .sub-heading {
-   color:purple; 
-  }
- 
+
   .header{
   text-align: center;
   font-size: 150px;
@@ -80,4 +94,76 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   text-shadow: 0px 2px 10px rgb(223, 117, 117),0px 0px 25px rgb(223, 117, 117);
 }
 
+/*Body Styling*/
+.hero {
+  background-image:url("Images/pages image.png");
+  background-size: fit;
+  background-position: center;
+  height:300px;
+  display:grid;
+  place-items: center;
+  text-align: center;
+  color:#926551;
+  letter-spacing: 2px;
+  position: relative;
+}
 
+.paragraph {
+  color:#e5562b;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.sub-heading {
+  color:#926551;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 600px;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-shadow: 0px 2px 10px rgb(228, 88, 88),0px 0px 25px rgb(228, 88, 88);
+}
+
+.card {
+  background-color: #25140B;
+}
+
+section {
+  padding: 20px;
+}
+
+body {
+  background-color: #E9AFAD;
+  height: auto;
+  margin: 0;
+font-style: italic;
+font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+/*Grid styling*/
+/*About*/
+.about {
+  display:grid;
+  grid-template-columns: repeat(auto-fit minimax(200px, 1fr 1fr 1fr));
+  background-color: #47200b;
+  padding:10px;
+  gap:10px;
+  border-radius: 20px;
+}
+
+.about-full{
+  grid-column: span 2;
+}
+
+.about div {
+background-color:#5A2E1F;
+padding: 15px;
+border-radius: 20px;
+color: #E9AFAD;
+}
+
+/*Footer Styling*/
+footer {
+  padding-top: 32px;
+  scroll-padding-top: 32px;
+}
